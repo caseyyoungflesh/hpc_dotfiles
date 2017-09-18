@@ -1,0 +1,9 @@
+#ignore everything
+*
+
+#except
+!.hpc_bash_profile
+!.hpc_aliases
+!.hpc_bash_prompt
+!.gitconfig
+!.gitignore
