@@ -5,11 +5,7 @@
 #   Load aliases
 #   ------------------------------------------------------------
 
-# Subset of aliases on laptop
-
-#   -----------------------------
-#   1. MAKE TERMINAL BETTER
-#   -----------------------------
+# Subset of aliases
 
 alias ll='ls -FGlAhp --color=auto'          # ll:           Preferred 'ls' implementation
 alias which='type -all'                     # which:        Find executables
@@ -22,3 +18,4 @@ alias mv='mv -iv'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 alias scp='scp -v'                          # Preferred 'scp' implementation
 alias sz='du -csh * | sort -h'              # Determine size of all files in dir and order by size
+alias sudo='sudo '                          # Enable aliases to be sudo’ed
