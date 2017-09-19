@@ -19,3 +19,12 @@ source ~/.hpc_bash_prompt
 module load git
 module load torque
 ```
+
+Additionally, add the following to `config` in `~/.ssh` (create file if necessary) if using ssh keys for authentication - this stores ssh key password in key agent:
+
+```
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+```
