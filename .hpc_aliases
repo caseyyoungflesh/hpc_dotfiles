@@ -20,3 +20,4 @@ alias scp='scp -v'                          # Preferred 'scp' implementation
 alias sz='du -csh * | sort -h'              # Determine size of all files in dir and order by size
 alias sudo='sudo '                          # Enable aliases to be sudo’ed
 alias public='cd /vault/public/'            # Jump directly to /public/ dir on sahara
+ufind () { find / -name $1 2>/dev/null ; }  # ufind:    Search everywhere using UNIX `find` - exact match
