@@ -5,6 +5,8 @@
 #   Load aliases
 #   ------------------------------------------------------------
 
+#NOTE: when running 'screen' on server, may need to create a .screenrc file with contents 'shell -$SHELL' in order for aliases and bash prompt to display correctly in screen login windows
+
 # Subset of aliases
 
 alias ll='ls -FGlAhp --color=auto'          # ll:           Preferred 'ls' implementation
@@ -21,3 +23,4 @@ alias sz='du -csh * | sort -h'              # Determine size of all files in dir
 alias sudo='sudo '                          # Enable aliases to be sudo’ed
 alias public='cd /vault/public/'            # Jump directly to /public/ dir on sahara
 ufind () { find / -name $1 2>/dev/null ; }  # ufind:    Search everywhere using UNIX `find` - exact match
+
