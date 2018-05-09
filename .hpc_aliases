@@ -23,4 +23,4 @@ alias sz='du -csh * | sort -h'              # Determine size of all files in dir
 alias sudo='sudo '                          # Enable aliases to be sudo’ed
 alias public='cd /vault/public/'            # Jump directly to /public/ dir on sahara
 ufind () { find / -name $1 2>/dev/null ; }  # ufind:    Search everywhere using UNIX `find` - exact match
-
+alias qs='qstat -u cyoungflesh'		    # qs: determine where submitted jobs are in queue
