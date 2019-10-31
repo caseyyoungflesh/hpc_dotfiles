@@ -24,6 +24,6 @@ alias sudo='sudo '                          # Enable aliases to be sudo’ed
 alias public='cd /vault/public/'            # Jump directly to /public/ dir on sahara
 ufind () { find / -name $1 2>/dev/null ; }  # ufind:    Search everywhere using UNIX `find` - exact match
 alias qs='qstat -u cyoungflesh'		    # qs: determine where submitted jobs are in queue
-alias sc='cd ~/phenomismatch/Bird_Phenology/Scripts/eBird_Nestwatch/'
+alias sc='cd ~/phenomismatch/Bird_Phenology/Scripts/'
 alias dp='cd ~/phenomismatch/Bird_Phenology/Data/Processed'
 alias sq='squeue -u cyoungflesh'
