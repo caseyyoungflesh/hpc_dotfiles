@@ -28,3 +28,8 @@ Host *
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_rsa
 ```
+To setup symlink:
+
+```
+ln -s /path/to/original /path/to/link
+```
